@@ -18,8 +18,9 @@ Take the time to expand your libft throughout the year. But always, make sure to
 check which functions are allowed !
 
 ## Functions
-|      Easy Functions     |
-| --------- | ----------- |
+
+### Easy Functions
+
 | Functions | Description |
 | --- | --- |
 | ft_isalpha | if character is a letter = returns 1 and otherwise 0 |
