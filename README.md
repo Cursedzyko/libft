@@ -30,10 +30,8 @@ check which functions are allowed !
 |[ft_isalnum](https://github.com/zyunusov/libft/blob/main/ft_isalnum.c) | if character is a number or letter = retruns 1 otherwise 0 |
 | [ft_isascii](https://github.com/zyunusov/libft/blob/main/ft_isascii.c) | if character is in the [ASCII](https://www.rapidtables.com/code/text/ascii-table.html) = returns 1 otherwise 0 |
 | [ft_isprint](https://github.com/zyunusov/libft/blob/main/ft_isprint.c) | if character is in the [ASCII Printable](https://www.ascii-code.com/) = returns 1 otherwise 0 |
-| [ft_toupper](https://github.com/zyunusov/libft/blob/main/ft_toupper.c) | if character in lowercase - returns uppercase character(character - 32), else
-returns character that is already uppercase |
-| [ft_tolower](https://github.com/zyunusov/libft/blob/main/ft_tolower.c) | if character in uppercase - returns lowercase character(character - 32), else
-returns character that is already lowercase |
+| [ft_toupper](https://github.com/zyunusov/libft/blob/main/ft_toupper.c) | if character in lowercase - returns uppercase character(character - 32), else returns character that is already uppercase |
+| [ft_tolower](https://github.com/zyunusov/libft/blob/main/ft_tolower.c) | if character in uppercase - returns lowercase character(character - 32), else returns character that is already lowercase |
 | [ft_strlen](https://github.com/zyunusov/libft/blob/main/ft_strlen.c) | returns lenght of a null - terminated [string](https://www.programiz.com/c-programming/c-strings) |
 
 ### Medium Functions
@@ -42,14 +40,11 @@ returns character that is already lowercase |
 | [ft_memset](https://github.com/zyunusov/libft/blob/main/ft_memset.c) | fills n bytes of memory with byte c. returns essentially the same [pointer](https://www.programiz.com/c-programming/c-pointers) that it received as input |
 | [ft_bzero](https://github.com/zyunusov/libft/blob/main/ft_bzero.c) | fills n bytes of memory with null-terminaters |
 | [ft_memcpy](https://github.com/zyunusov/libft/blob/main/ft_memcpy.c) | copies n bytes from src to dest. memory areas must not overlap |
-| [ft_memmove](https://github.com/zyunusov/libft/blob/main/ft_memmove.c) | copies the values of num bytes from the location pointed by source to the memory block pointed by destination.
-memory areas may overlap |
-| [ft_strlcpy](https://github.com/zyunusov/libft/blob/main/ft_strlcpy.c) | copies from string src to buffer dst no more than size - 1 characters
-if size> 0 and characters are written, the dst string is guaranteed to be null terminated |
+| [ft_memmove](https://github.com/zyunusov/libft/blob/main/ft_memmove.c) | copies the values of num bytes from the location pointed by source to the memory block pointed by destination memory areas may overlap |
+| [ft_strlcpy](https://github.com/zyunusov/libft/blob/main/ft_strlcpy.c) | copies from string src to buffer dst no more than size - 1 characters if size> 0 and characters are written, the dst string is guaranteed to be null terminated |
 | [ft_strlcat](https://github.com/zyunusov/libft/blob/main/ft_strlcat.c) | appends the NUL-terminated string src to the end of dst. It will append at most size - ft_strlen(dst) - 1 bytes, NULL-terminating the result |
 | [ft_strchr](https://github.com/zyunusov/libft/blob/main/ft_strchr.c) | searches for the first occurrence of the character c in the string s. the search area is limited by strlen + 1 (\ 0 is treated as part of a string) |
-| [ft_strrchr](https://github.com/zyunusov/libft/blob/main/ft_strrchr.c) | searches for the last occurrence of the character c in the string s. the search area is limited by strlen + 1
-(\ 0 is treated as part of a string) |
+| [ft_strrchr](https://github.com/zyunusov/libft/blob/main/ft_strrchr.c) | searches for the last occurrence of the character c in the string s. the search area is limited by strlen + 1(\0 is treated as part of a string) |
 | [ft_strncmp](https://github.com/zyunusov/libft/blob/main/ft_strncmp.c) | compares at most the first n characters of two strings. returns 0 if identical. returns * s1 - * s2 if distinct characters are encountered |
 | [ft_memchr](https://github.com/zyunusov/libft/blob/main/ft_memchr.c) | searches for the first occurrence of the character c in the memory area s, limited to n bytes returns a pointer to the searched for byte, or NULL if not found |
 | [ft_memcmp](https://github.com/zyunusov/libft/blob/main/ft_memcmp.c) | compares n bytes of memory chunks. returns 0 if the parcels are identical. returns 1 if different bytes and * s1> * s2 are encountered. otherwise -1 |
